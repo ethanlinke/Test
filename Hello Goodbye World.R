@@ -1,7 +1,8 @@
 #GitHub test
 library(shiny)
 
-ui <- 'Hello World'
+ui <- fluidRow(tags$h1( 'Hello World'),
+      tags$h2('Goodbye World'))
 
 server <- function(input, output) {}
 
